@@ -1,0 +1,46 @@
+/*
+
+- Create a card UI similar to the image using HTML and CSS
+- It doesn't need to be an exact replica
+- You can use any name, photo, URL
+
+*/
+* {
+  box-sizing : border-box;
+  font-family: roboto, sans-serif;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.card {
+  margin: 0 auto;
+  width: 20rem;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 1rem;
+  align-items: center;
+  box-shadow: 0 0 0.8rem 0rem silver;
+}
+
+.card__profile-picture {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 10rem;
+  border: 3px solid black;
+}
+
+.card__user-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__user-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
